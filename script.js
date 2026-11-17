@@ -1,4 +1,0 @@
-document.querySelectorAll('.menu-toggle').forEach(btn=>btn.addEventListener('click',()=>document.querySelector('.nav nav').classList.toggle('open')));
-document.querySelectorAll('#year').forEach(el=>el.textContent=new Date().getFullYear());
-const params=new URLSearchParams(location.search);const product=params.get('product');const field=document.getElementById('productField');if(product&&field)field.value=product;
-const form=document.getElementById('enquiryForm');if(form)form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const subject=encodeURIComponent('Product enquiry - DigiLyte Polymer');const body=encodeURIComponent(`Name: ${d.get('name')}\nEmail or phone: ${d.get('reply')}\nProduct / requirement: ${d.get('product')}\n\nMessage:\n${d.get('message')}`);location.href=`mailto:digilyte.polymer@gmail.com?subject=${subject}&body=${body}`;});
