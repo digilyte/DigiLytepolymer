@@ -1,2 +1,0 @@
-# DigiLytepolymer
-Household items manufacturers 
