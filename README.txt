@@ -1,4 +1,4 @@
-DIGILYTE POLYMER PREMIUM WEBSITE
+DIGILYTE POLYMER household products manufacturer PREMIUM WEBSITE
 ================================
 Pages: Home, Products, About Us, Contact.
 The Products page includes 24 catalogue product cards with photos extracted from the supplied DigiLyte Polymer PDF.
